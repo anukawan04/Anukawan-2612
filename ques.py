@@ -149,3 +149,17 @@ def word_frequency(sentence):
 word_frequency_result = word_frequency("this is an apple and this is a orange")
 print(word_frequency_result)
 
+#11 take a secret word as input (without spaces)
+#then encodes the word using a custom cipher:
+# replace all vowels with *
+# reverse the entire srting
+# then shift each letter 2 places ahead in the alphabet (wrap around if needed, eg, y->, z-> b)
+# finally print the resulting encoded word
+
+
+
+word=input("enter the secret word : ")
+if " " in word:
+    print("the word should be without space")
+else:
+    print("secret word has been taken")
