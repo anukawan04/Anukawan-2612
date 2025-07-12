@@ -1,7 +1,8 @@
-numbers=[]
-print("enter a number")
-for i in range(4):
-    num = float(input(f"Number {i+1}: "))
-    numbers.append(num)
+even_number = []
+for i in range(5):
+    num = int(input(f"Enter a number {i+1}: "))
+    if num % 2 == 0:
+        even_number.append(num)
 
-total = sum(numbers)
+
+print(even_number)
