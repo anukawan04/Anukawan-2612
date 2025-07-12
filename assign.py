@@ -62,8 +62,8 @@ else:
   print("No double space found")
 # 10Replace the double space from the sentence with a single space
 
-sentence1 = input("Enter your sentence: ")
-sentence2 = sentence1.replace("  ", " ")  # Replace double spaces
+sentence = input("Enter your sentence: ")
+sentence1 = sentence1.replace("  ", " ")  # Replace double spaces
 
-print("Original sentence:", sentence1)
-print("Fixed sentence   :", sentence2) 
+print("Original sentence:", sentence)
+print("Fixed sentence   :", sentence1) 
